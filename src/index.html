@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name=viewport content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>
+      Teks Generator by Afid Arifin
+    </title>
+    <link rel="stylesheet" href="assets/styles.css">
+    <!-- <script src="assets/script.js"></script> -->
+  </head>
+  <body>
+    <header class="jumbo">
+      <h1>
+        Teks Generator
+      </h1>
+      <h2>
+        Seluruh alat teks generator kami terbuat dengan javascript.
+      </h2>
+    </header>
+    <nav>
+      <ul>
+        <li>
+          <a href="#">Beranda</a>
+        </li>
+        <li>
+          <a href="#text">Teks Generator</a>
+        </li>
+        <li>
+          <a href="mailto:intriarani@gmail.com">Hubungi Saya</a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <div id="content">
+        <article id="text" class="card">
+          <h1 style="color: #00a2c6;">
+            Teks Generator by Afid Arifin
+          </h1>
+          <h2 style="color: black;font-size: 13px;">
+            Teks generator ini saya buat dengan bantuan javascript sederhana. Teks generator ini saya buat sesuai dengan pengetahuan javascript yang telah saya miliki sebelum saya join atau bergabung bersama Dicoding.
+          </h2>
+          <p>
+            <form id="form" name="form" onsubmit="return false;" method="POST">
+              <label for="text">
+                Masukkan Teks:
+              </label>
+              <br/>
+              <textarea id="textin" name="textin" placeholder="Masukkan teks Anda di sini. Hasil generate, jenis fonts akan ditampilkan secara random..."></textarea>
+              <br/>
+              <button id="submit" type="submit" title="Tombol opsional ini dapat Anda klik atau pun tidak maka tetap menampilkan hasil generate Anda.">
+                Generate
+              </button>
+              <button type="reset" title="Reset teks terkini.">
+                Reset
+              </button>
+            </form>
+          </p>
+          <p>
+            <label for="text">
+              Hasil:
+            </label>
+            <br/>
+            <textarea id="message" name="message" placeholder="Hasil dari generator akan tampil di sini..." readonly></textarea>
+          </p>
+        </article>
+      </div>
+      <aside>
+        <article class="profile card">
+          <header>
+            <h2 style="color: #00a2c6;">
+              Biodata Lengkap Afid Arifin
+            </h2>
+            <p style="font-size: 12px;">
+              Banjarnegara, Jawa Tengah, Indonesia
+            </p>
+            <figure>
+              <img src="assets/profil.jpg" title="Saya yang memegang bucket di foto profil ini dan yang cewek ini adalah sahabat terbaikku. Semoga jadi jodoh saya. Doakan ya para reviewer submission saya. WKWKWKWKWKWK....">
+              <figcaption>
+                Afid Arifin
+              </figcaption>
+            </figure>
+           </header>
+           <section>
+            <h3>
+              Bio Afid Arifin
+            </h3>
+            <p>
+              Nama saya Afid Arifin. Saat ini saya sedang menjadi mahasiswa aktif di perguruan tinggi swasta STIMIK Tunas Bangsa Banjarnegara.
+            </p>
+            <table>
+              <tr>
+                 <th align="left">Nama</th>
+                 <td>Afid Arifin</td>
+              </tr>
+              <tr>
+                 <th align="left">TTL</th>
+                 <td>29 Maret 1999</td>
+              </tr>
+              <tr>
+                 <th align="left">Asal</th>
+                 <td>Banjarnegara, Jawa Tengah</td>
+              </tr>
+              <tr>
+                 <th align="left">Alamat</th>
+                 <td>Majalengka, Bawang</td>
+              </tr>
+                 <tr>
+                 <th align="left">Email</th>
+                 <td>intriarani@gmail.com</td>
+              </tr>
+            </table>
+           </section>
+        </article>
+      </aside>
+    </main>
+    <footer>
+      <p>
+        &copy 2020 by Afid Arifin
+      </p>
+    </footer>
+  </body>
+  <script src="assets/script.js"></script>
+</html>
